@@ -1,0 +1,36 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(56, 82, 209);
+}
+
+.background{
+    width:90%;
+    height:2000px;
+    background-attachment: scroll;								/* xác định kiểu cuộn trang fixed or scroll*/
+    background-image: url('./../image/13.jpg');	            /* */
+    background-repeat: repeat;								/* dùng với background-image, xác định độ lặp lại của image nếu image không cover hết background*/
+    background-color:rgb(56, 82, 209);				        /**/
+    background-position:  left bottom;							/*dùng với background-image, xác định vị trí của image nếu image ko bao phủ toàn bộ background */
+    overflow: hidden;
+}
+
+.item{
+    width:100px;
+    height:100px;
+    background-color:rgb(79, 79, 81);
+    margin: 10px;
+}
+
+div {
+    background: #ccc;
+    background-clip: content-box;
+    border: 10px dotted #cc0000;
+    height: 350px;
+    padding: 20px;
+    width: 350px;
+}
+
+/* background-clip:  xác định vùng chứa của background */
+/* background-origin: dùng với background-image, xác định vùng chứa của image */
+/* background-size: dùng với background-image, xác định size của image */
